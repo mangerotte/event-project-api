@@ -15,13 +15,19 @@ public class UserModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(nullable = false, unique = true)
     @NotBlank
     private String login;
+
     @Column(nullable = false)
     @NotBlank
     private String senha;
+
     @Column(nullable = false, unique = true)
     @NotBlank
     private String email;
+
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Client client;
 }
