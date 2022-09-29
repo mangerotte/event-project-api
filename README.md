@@ -2,8 +2,8 @@
 Está API foi criada para um trabalho da faculdade da disciplina "PROGRAMAÇÃO DE SOLUÇÕES COMPUTACIONAIS". Este trabalho consiste em criar um API Rest utilizando o padrão de projeto MVC.
 
 ## Problema a ser resolvido
-A solução deve ser desenvolvida dentro do paradigma orientado a objetos:
 
+- A solução deve ser desenvolvida dentro do paradigma orientado a objetos:
 - Deve implementar um sistema de cadastro e notificação de eventos que estejam ocorrendo na cidade em que o estudante reside;
 - O sistema deve prover um espaço para cadastro do usuário. Você deve definir os atributos do usuário, que devem ser no mínimo 3 (quanto mais completo, melhor);
 - Deve ser possível cadastrar eventos, definindo um horário (dentre outros atributos). Estes eventos devem ter, obrigatoriamente, os atributos: nome, endereço, categoria, horário e descrição;
