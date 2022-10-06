@@ -13,6 +13,6 @@ public class UserDto {
     private Long id;
     private String login;
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    private String senha;
+    private String password;
     private String email;
 }

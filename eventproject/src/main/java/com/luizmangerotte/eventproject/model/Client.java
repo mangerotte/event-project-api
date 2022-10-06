@@ -19,12 +19,9 @@ public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
-
     @Column(name = "date_of_birth")
     private String dateOfBirth;
-
     @OneToOne
     @MapsId
     @JsonIgnore
